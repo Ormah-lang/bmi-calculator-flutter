@@ -7,10 +7,11 @@ import '../components/reusable_card.dart';
 import '../constants.dart';
 
 class ResultsPage extends StatelessWidget {
-  ResultsPage(
-      {@required this.bmiResult,
-      @required this.interpretation,
-      @required this.resultText});
+  ResultsPage({
+    @required this.interpretation,
+    @required this.bmiResult,
+    @required this.resultText,
+  });
 
   final String bmiResult;
   final String resultText;
